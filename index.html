@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tournament</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Školní fotbalový turnaj 2026</h1>
+        <p>
+            Zveme všechny žáky od 1. do 4. ročníku na velký školní fotbalový turnaj. 
+            Týmy z jednotlivých tříd se utkají mezi sebou v přátelské, ale soutěživé atmosféře. 
+            Cílem akce je podpořit sportování, týmovou spolupráci a užít si společný školní den plný zábavy
+        </p>
+    </header>
+        <section class="program">
+        <h2>Program / Co nabízíme</h2>
+        <ul>
+            <li>Turnaj mezi třídami 1.–4. ročníku</li>
+            <li>Krátké zápasy 5v5 na školním hřišti</li>
+            <li>Soutěž o nejlepšího hráče turnaje</li>
+            <li>Vítězové získají medaile za 1., 2. a 3. místo</li>
+            <li>Slavnostní vyhlášení vítězů</li>
+        </ul>
+    </section>
+
+    <section class="formular">
+        <h2>Přihláška</h2>
+        <form>
+            <label for="name">Jméno:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="team">Ročník:</label>
+            <select id="team" name="team">
+                <option value="1">1 ročník</option>
+                <option value="2">2 ročník</option>
+                <option value="3">3 ročník</option>
+                <option value="4">4 ročník</option>
+            </select>
+
+            <label for="message">Zpráva:</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+
+            <button type="submit">Odeslat</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>Autoři: Andrii Kachynskyi</p>
+        <p>Datum: 2026</p>
+    </footer>
+</body>
+</html>
